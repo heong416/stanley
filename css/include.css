@@ -1,0 +1,62 @@
+@charset"utf-8";
+
+
+/*헤더*/
+#header{
+    height: 60px;
+    width: 100%;
+}
+.hWrap{position: relative;}
+.logo{
+    position: absolute;
+    left: 12px;
+    top: 20px;
+}
+.logo img{width: 115px;}
+
+.panel{
+    position: absolute;
+    top: 16px;
+    right: 12px;
+}
+.panel a{}
+.panel img{width: 30px;}
+
+
+/*푸터*/
+#footer{
+    text-align: center;
+    font-size: 12px;
+    color: #d3d2d2;
+    background: #364532;
+}
+.fTop{
+    display: inline-block;
+    width: 100%;
+    padding: 5% 0;
+    background: #2a3727;
+}
+.csWrap{display: inline-block;}
+.csWrap li{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    width: 150px;
+    border: #d3d2d2 solid 1px;
+}
+.csBox01{margin-right: 20px;}
+.csBox01 p{}
+
+.csBox02{}
+.csBox02 p{width: 100%;}
+.csBox02 p a{
+    display: block;
+    color: #d3d2d2;
+}
+
+.fBottom{padding: 8% 0;}
+.fBottom p{line-height: 20px;}
+.fBottom img{
+    padding-top: 5%;
+    width: 120px;
+}

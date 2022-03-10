@@ -1,0 +1,279 @@
+@charset"utf-8";
+
+
+/*메인슬라이드*/
+#container{}
+.mainSlider{}
+.list01{
+    color: #fff;
+    position: relative;
+}
+.list01>img{width: 100%;}
+.txtBox01{
+    position: absolute;
+    text-align: right;
+    right: 5%;
+    bottom: 85px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 28px;
+}
+.txtBox01 p{}
+
+.moreBtn01{
+    font-weight: 100;
+    text-align: right;
+    font-size: 1.4rem;
+    position: absolute;
+    right: 5%;
+    bottom: 45px;
+}
+.moreBtn01 a{
+    vertical-align: middle;
+    color: #fff;
+}
+.moreBtn01 a img{
+    vertical-align: middle;
+    padding-bottom: 5px;
+    width: 35px;
+}
+.list02{position: relative;}
+
+.txtBox02{
+    position: absolute;
+    top: 210px;
+    left: 5%;;
+    color: #f3f3f3;
+    font-size: 1.6rem;
+}
+.txtBox02 h3{
+    padding-bottom: 20px;
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+.txtBox02 p{
+    font-weight: 100;
+    line-height: 24px;
+}
+.txtBox02 h4{
+    padding-top: 14px;
+    font-weight: 400;
+}
+.moreBtn02{
+    font-size: 1.4rem;
+    position: absolute;
+    text-align: left;
+    left: 5%;
+    top: 400px;
+}
+.moreBtn02 a{color: #f3f3f3;}
+.moreBtn02 a img{}
+
+
+.list03{position: relative;}
+.list03 img{}
+
+.moreBtn03{
+    right: 10%;
+    font-size: 2rem;
+}
+.moreBtn03 a{}
+.moreBtn03 a img{}
+
+
+
+
+
+
+/*메인컨텐츠01*/
+.mainCon01{
+    text-align: center;
+    width: 100%;
+}
+
+.mainCon01 h2{
+    font-size: 3rem;
+    padding-top: 15%;
+}
+.mainCon01>p{
+    font-weight: 100;
+    padding-top: 10px;
+    font-size: 1.6rem;
+}
+
+.con01List{}
+
+.con01List01{margin: 2.5%;}
+.con01List01 h3{
+    font-family: "Score";
+    padding-top: 15%;
+    padding-bottom: 5%;
+    font-weight: 300;
+    font-size: 2rem;
+}
+.con01List01 li{
+    position: relative;
+    margin: 2.5% 2.5%;
+    float: left;
+    width: calc(50% - 5%); 
+}
+.con01List01 li p{
+    width: 100%;
+    font-weight: 100;
+    color: #fff;
+    top: 50%;
+    font-size: 1.4rem;
+    position: absolute;
+}
+.con01List01 li a{}
+.con01List01 li img{width: 100%;}
+.con01List01 li span{}
+
+
+.con01List02{}
+.con01List02 li{}
+.con01List02 li p{}
+.con01List02 li a{}
+.con01List02 li img{}
+.con01List02 li span{}
+
+
+
+
+
+/*메인컨텐츠02*/
+.mainCon02{
+    text-align: center;
+    color: #fff;
+    margin-top: 28%;
+    padding-top: 13%;
+    padding-bottom: 2%;
+    background: url(../images/main/con02MainImg.png) no-repeat center center;
+    background-size: cover;
+}
+.mainCon02 p{
+    font-weight: 100;
+    font-size: 1.6rem;
+}
+.mainCon02 h2{
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 1.8rem;
+    
+}
+
+.con02Btn{
+    margin: 5% auto;
+    height: 30px;
+    line-height: 30px;
+    font-size: 1.2rem;
+    width: 150px;
+    border: #fff solid 1px;
+}
+.con02Btn a{
+    font-weight: 100;
+    display: block;
+    color: #fff;
+}
+
+
+/*메인컨텐츠03*/
+.mainCon03{
+    padding: 0 5%;
+    padding-top: 20%;
+    padding-bottom: 10%;
+    text-align: center;
+    background: #fafafa;
+}
+.mainCon03 h2{
+    font-size: 3rem;
+}
+.mainCon03>p{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-weight: 100;
+    font-size: 1.6rem;
+}
+.con03List{}
+.con03List li{
+    margin-bottom: 30px;
+}
+.con03List p{
+    font-family: "Score";
+    padding-top: 50px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #f3f3f3;
+}
+.mainCon03 .con02Btn{
+    margin-top: 110px;
+    width: 200px;
+    height: 35px;
+    line-height: 35px;
+}
+
+.con03List01{
+    background: url(../images/main/con03Img01.png) no-repeat center center;
+    background-size: cover;
+    height: 250px;
+}
+.con03List02{
+    background: url(../images/main/con03Img02.png) no-repeat center center;
+    background-size: cover;
+    height: 250px;
+}
+.con03List02 p{line-height: 30px;}
+.con03List02 p span{display: block;}
+.con03List02 .con02Btn{margin-top: 75px}
+
+
+/*메인컨텐츠04*/
+.mainCon04{
+    padding: 15% 0;
+    text-align: center;
+}
+.mainCon04 h2{
+    font-size: 3rem;
+}
+.mainCon04>p{
+    font-weight: 100;
+    padding-top: 10px;
+    margin-bottom: 10%;
+    font-size: 1.6rem;
+}
+
+.con04List{padding: 0 2.5%;}
+.con04List li{
+    position: relative;
+    margin: 0 2.5%;
+    float: left;
+    width: calc(50% - 5%); 
+}
+.con04List li img{
+    display: block;
+    width: 100%;
+}
+.con04List li p{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 100;
+    font-size: 1.4rem;
+    color: #fff;
+    background: rgba(0,0,0,0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
